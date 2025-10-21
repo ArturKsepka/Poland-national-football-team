@@ -194,5 +194,4 @@ This allows us to answer the question of whether home advantage really translate
 ## Author
 
 Artur Ksepka  
-LinkedIn: [https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page](https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page)  
-Email: [Your email address]
+LinkedIn: [https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page](https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page)
