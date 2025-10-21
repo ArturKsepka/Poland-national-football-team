@@ -193,5 +193,4 @@ Pozwala to odpowiedzieć na pytanie, czy przewaga własnego boiska rzeczywiście
 ## Autor
 
 Artur Ksepka  
-LinkedIn: [https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page](https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page)  
-Email: [Twój adres e-mail]
+LinkedIn: [https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page](https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page)
