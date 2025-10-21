@@ -31,7 +31,7 @@ Dzięki temu każda analiza skuteczności polskiej reprezentacji uwzględnia, cz
 **Pytanie analityczne:**  
 Czy polska reprezentacja gra lepiej będąc gospodarzem czy gościem, z uwzględnieniem siły przeciwnika?
 
-W analizie wyodrębniono mecze z udziałem Polski i porównano jej wyniki jako gospodarza oraz jako gościa. Uwzględniono liczbę zwycięstw, remisów, porażek oraz średnią liczbę zdobytych i straconych bramek w każdej kategorii. Dodatkowo, by analiza była bardziej miarodajna, wyniki Polski są ważone siłą przeciwnika — wyliczaną jako średnia liczba goli zdobywanych przez każdy zespół.
+W analizie wyodrębniono mecze z udziałem Polski i porównano jej wyniki jako gospodarza oraz jako gościa.By analiza była bardziej miarodajna, wyniki Polski są ważone siłą przeciwnika — wyliczaną jako średnia liczba goli zdobywanych przez każdy zespół.
 
 ## Metodyka
 
@@ -39,7 +39,7 @@ W analizie wyodrębniono mecze z udziałem Polski i porównano jej wyniki jako g
 2. **Ważenie zwycięstw** – każde zwycięstwo Polski (jako gospodarz lub gość) zostało pomnożone przez ranking siły przeciwnika, by określić "wartość" wygranej.
 3. **Współczynniki zwycięstw** – wyliczono stosunek sumy wartości wygranych do sumy wartości wszystkich rozegranych meczów (osobno dla meczów domowych i wyjazdowych).
 
-## Przykładowe zapytanie SQL
+## Zapytanie SQL
 
 ### 1. Tworzenie rankingu siły drużyn na podstawie średniej liczby zdobytych goli na mecz
 
