@@ -187,15 +187,9 @@ This allows us to answer the question of whether home advantage really translate
 
 ## Repository Structure
 
-- `/sql/poland_home_vs_away_weighted.sql` – SQL query for analysis
-- `/dane/international_matches.csv` – source data file
+- `poland_match_analysis.sql` – SQL query for analysis
+- `international_matches.csv` – source data file
 - `README.md` – project description
-
-## Author
-
-Artur Ksepka  
-LinkedIn: [https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page](https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page)  
-Email: [Your email address]
 
 ## Results
 
@@ -203,11 +197,16 @@ The final query returned the following values:
 
 | Metric | Value |
 |:--|:--:|
-| **Home Win Ratio (weighted)** | **0.43** |
-| **Away Win Ratio (weighted)** | **0.29** |
+| **Home Win Ratio** | **0.43** |
+| **Away Win Ratio** | **0.29** |
 
 ### Interpretation
 
 Poland’s weighted home win ratio (0.43) is noticeably higher than the away win ratio (0.29).  
 This indicates that the Polish national team performs significantly better when playing **at home**, even after adjusting for the relative strength of opponents.  
 In other words, **home advantage** clearly translates into better results for the Polish team.
+
+## Author
+
+Artur Ksepka  
+LinkedIn: [https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page](https://www.linkedin.com/in/artur-ksepka-77b3ba180/?trk=public-profile-join-page)
