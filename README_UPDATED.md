@@ -36,7 +36,10 @@ To make the analysis more reliable, Poland's results are weighted by the strengt
 
 ## Methodology
 
-1. **Opponent Ranking** – for each team, the average number of goals scored per match as a home team and as an away team was calculated, and then the average was taken as the team's strength ranking.
+1. **Opponent Ranking** – for each team, offensive strength was calculated as the average number of goals scored per match (separately as home and away team), and defensive strength as the average number of goals conceded per match (also separately as home and away team).
+The team’s ranking was then computed as the difference between offensive and defensive strength.
+To avoid negative values, if the result of this difference was below zero, it was set to 0, and 1 was added to every value.
+As a result, Poland receives 1 point for a win against a very weak opponent, and more points for stronger rivals, e.g. 2.27 points for a win against England.
 2. **Weighted Victories** – each Polish victory (at home or away) was multiplied by the opponent's strength ranking to determine the "value" of the win.
 3. **Win Ratios** – the ratio of the sum of weighted victories to the sum of all matches played (separately for home and away matches) was calculated.
 
