@@ -101,7 +101,7 @@ ranking as (
 
 ---
 
-### 2. Calculating Poland’s home wins weighted by opponent strength
+### 2.1. Calculating Poland’s home wins weighted by opponent strength
 
 ```sql
 home_win_points as (
@@ -117,7 +117,7 @@ home_win_points as (
 
 ---
 
-### 3. Calculating total Poland home matches weighted by opponent strength
+### 2.2. Calculating total Poland home matches weighted by opponent strength
 
 ```sql
 home_all_points as (
@@ -133,7 +133,7 @@ home_all_points as (
 
 ---
 
-### 4. Calculating Poland’s away wins weighted by opponent strength
+### 2.3. Calculating Poland’s away wins weighted by opponent strength
 
 ```sql
 away_win_points_a as (
@@ -158,7 +158,7 @@ away_win_points_h as (
 
 ---
 
-### 5. Calculating total Poland away matches weighted by opponent strength
+### 2.4. Calculating total Poland away matches weighted by opponent strength
 
 ```sql
 away_all_points_a as (
@@ -183,7 +183,7 @@ away_all_points_h as (
 
 ---
 
-### 6. Summary: comparison of Poland’s weighted home and away win ratios
+### 3. Summary: comparison of Poland’s weighted home and away win ratios
 
 ```sql
 select
@@ -214,8 +214,8 @@ The final query returned the following values:
 
 | Metric | Value |
 |:--|:--:|
-| **Home Win Ratio** | **0.43** |
-| **Away Win Ratio** | **0.29** |
+| **Home Win Ratio** | **0.46** |
+| **Away Win Ratio** | **0.32** |
 
 ### Interpretation
 
